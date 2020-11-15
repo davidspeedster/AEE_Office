@@ -1,0 +1,79 @@
+
+.swiper-container {
+  width: 90%;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.employee-slide{
+    background-color: rgb(0, 0, 0);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(0, 0, 0);
+
+  /* Center slide text vertically */
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.forSwiper .swiper-container {
+margin-top: 50px;
+position: relative;
+width: 90%;
+margin: 0 auto;
+}
+.my-employees {
+position: relative;
+}
+@media (min-width: 37.5em) {
+.my-employees  {
+  margin-left: auto;
+  margin-right: auto;
+  width: 92%;
+  /* make room for arrows */
+  padding-left: 2em;
+  padding-right: 2em;
+}
+}
+@media (min-width: 43.75em) {
+.my-employees  {
+  width: 95%;
+}
+}
+
+.swiper-wrapper {
+/* now pagination is below slides */
+margin-bottom: 3em;
+/* just enough width so slides handing off screen are partially
+visible */
+width: 90%;
+}
+@media (min-width: 37.5em) {
+.swiper-wrapper {
+  /* now arrows appear */
+  /* make room for arrows */
+  width: 92%;
+}
+}
+@media (min-width: 43.75em) {
+.swiper-wrapper {
+  /* make room for arrows */
+  width: 95%;
+}
+}
+
+

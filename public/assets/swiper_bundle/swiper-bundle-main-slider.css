@@ -1,0 +1,41 @@
+
+.main {
+  width: 100%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.main2 {
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+  }
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-container .gallery-top {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-container .gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+ .gallery-thumbs .swiper-slide {
+  height: 100%;
+  opacity: 0.2;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
