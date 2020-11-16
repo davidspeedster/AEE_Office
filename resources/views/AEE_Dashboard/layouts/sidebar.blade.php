@@ -19,22 +19,6 @@
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
                                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-2" aria-controls="submenu-1-2">E-Commerce</a>
-                                            <div id="submenu-1-2" class="collapse submenu" style="">
-                                                <ul class="nav flex-column">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="index.html">E Commerce Dashboard</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-product.html">Product List</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-product-single.html">Product Single</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-product-checkout.html">Product Checkout</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="dashboard-finance.html">Finance</a>
@@ -45,17 +29,6 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">Infulencer</a>
                                             <div id="submenu-1-1" class="collapse submenu" style="">
-                                                <ul class="nav flex-column">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="dashboard-influencer.html">Influencer</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-finder.html">Influencer Finder</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-profile.html">Influencer Profile</a>
-                                                    </li>
-                                                </ul>
                                             </div>
                                         </li>
                                     </ul>
@@ -77,6 +50,10 @@
                             </li>
 
                             <li class="nav-item">
+                                <a class="nav-link" href="/AEE_Dashboard/footer" ><i class="fas fa-newspaper"></i>Footer and Logo</a>
+                            </li>
+
+                            <li class="nav-item">
                                 <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-handshake"></i>Partners</a>
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
@@ -85,6 +62,20 @@
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="/AEE_Dashboard/partner/">Manage Partners</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fas fa-people-carry"></i>News Feed</a>
+                                <div id="submenu-8" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/AEE_Dashboard/newsFeed/create">Create a News Feed </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/AEE_Dashboard/newsFeed">Manage News Feed</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -154,17 +145,9 @@
                                 <a class="nav-link" href="/AEE_Dashboard/who_we_are" ><i class="fas fa-users"></i>Who We are</a>
                             </li>
 
+
                             <li class="nav-item">
-                                <a class="nav-link" href="/AEE_Dashboard/footer" ><i class="fas fa-newspaper"></i>Footer and Logo</a>
-                            </li>
-
-
-
-                            <li class="nav-divider">
-                                Features
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-14" aria-controls="submenu-14"><i class="fas fa-fw fa-file"></i>Web Pages </a>
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-14" aria-controls="submenu-14"><i class="fas fa-fw fa-file"></i>Web Pages Preview</a>
                                 <div id="submenu-14" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
@@ -193,93 +176,10 @@
                                             <a class="nav-link" href="pages/sign-up.html">Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/forgot-password.html">Blog</a>
+                                            <a class="nav-link" href="pages/forgot-password.html">News Feed</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/pricing.html">Contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fas fa-fw fa-inbox"></i>Apps <span class="badge badge-secondary">New</span></a>
-                                <div id="submenu-8" class="collapse submenu" style="">
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/inbox.html">Inbox</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/email-details.html">Email Detail</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/email-compose.html">Email Compose</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/message-chat.html">Message Chat</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-13" aria-controls="submenu-13"><i class="fas fa-fw fa-columns"></i>Icons</a>
-                                <div id="submenu-13" class="collapse submenu" style="">
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/icon-fontawesome.html">FontAwesome Icons</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/icon-material.html">Material Icons</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/icon-simple-lineicon.html">Simpleline Icon</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/icon-themify.html">Themify Icon</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/icon-flag.html">Flag Icons</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/icon-weather.html">Weather Icon</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-14" aria-controls="submenu-14"><i class="fas fa-fw fa-map-marker-alt"></i>Maps</a>
-                                <div id="submenu-14" class="collapse submenu" style="">
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/map-google.html">Google Maps</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/map-vector.html">Vector Maps</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-15" aria-controls="submenu-15"><i class="fas fa-f fa-folder"></i>Menu Level</a>
-                                <div id="submenu-15" class="collapse submenu" style="">
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Level 1</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-11" aria-controls="submenu-11">Level 2</a>
-                                            <div id="submenu-11" class="collapse submenu" style="">
-                                                <ul class="nav flex-column">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#">Level 1</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#">Level 2</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Level 3</a>
                                         </li>
                                     </ul>
                                 </div>

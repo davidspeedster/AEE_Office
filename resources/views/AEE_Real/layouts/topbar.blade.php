@@ -92,11 +92,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="/AEE_Dark/services">Services</a></li>
-                                        <li><a href="/AEE_Dark/blog">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="/AEE_Dark/blog">Blog</a></li>
-                                                <li><a href="/AEE_Dark/single-blog">Blog Details</a></li>
-                                            </ul>
+                                        <li><a href="/newsFeed">News Feed</a>
                                         </li>
                                     </ul>
                                 </nav>

@@ -506,8 +506,8 @@
                                             <input id="parentText" name="parentText" type="hidden" class="form-control" value="history">
                                         </div>
                                         <div class="form-group">
-                                            <label for="google_map_link">Sound Cloud iframe:</label>
-                                            <p>Click <a target="_blank" class="btn-info" href="https://www.soundcloud.com/">Here</a> to go to soundcloud. Once there search for the specific file you want and once you find it, click the share button found on the bottom of the file and click on embed on the pop up window. Continue to customize the file to satisfy zour needs and once done copy the code it provides and paste it on the text area below. BE SURE TO COPY AND PASTE THE ENTIRE CODE, OR IT WON'T WORK.</p>
+                                            <label for="websiteLink">Sound Cloud iframe:</label>
+                                            <p>Click <a target="_blank" class="btn-info" href="https://www.soundcloud.com/">Here</a> to go to soundcloud. Once there search for the specific file you want and once you find it, click the share button found on the bottom of the file and click on embed on the pop up window. Continue to customize the file to satisfy your needs and once done copy the code it provides and paste it on the text area below. BE SURE TO COPY AND PASTE THE ENTIRE CODE, OR IT WON'T WORK.</p>
 
                                             <textarea id="websiteLink" name="websiteLink" class="form-control">{{$history->websiteLink}}</textarea>
                                         </div>
@@ -562,7 +562,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="google_map_link">Sound Cloud iframe:</label>
-                                            <p>Click <a target="_blank" class="btn-info" href="https://www.soundcloud.com/">Here</a> to go to soundcloud. Once there search for the specific file you want and once you find it, click the share button found on the bottom of the file and click on embed on the pop up window. Continue to customize the file to satisfy zour needs and once done copy the code it provides and paste it on the text area below. BE SURE TO COPY AND PASTE THE ENTIRE CODE, OR IT WON'T WORK.</p>
+                                            <p>Click <a target="_blank" class="btn-info" href="https://www.soundcloud.com/">Here</a> to go to soundcloud. Once there search for the specific file you want and once you find it, click the share button found on the bottom of the file and click on embed on the pop up window. Continue to customize the file to satisfy your needs and once done copy the code it provides and paste it on the text area below. BE SURE TO COPY AND PASTE THE ENTIRE CODE, OR IT WON'T WORK.</p>
 
                                                 <textarea id="websiteLink" name="websiteLink" class="form-control">{{old('websiteLink')}}</textarea>
                                             </div>

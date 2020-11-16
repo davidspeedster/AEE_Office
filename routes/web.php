@@ -66,6 +66,10 @@ Route::group(['prefix' => '/'], function () {
     Route::get('/processes', 'ProcessesPageController@index');
     Route::get('/single_project_view/{project}', 'ProjectsPageController@single_view');
     Route::get('/singleCategoryView/{projectCategory}', 'FeaturedProjectsPageController@single_view');
+    Route::get('/newsFeed', 'NewsFeedPageController@index');
+    Route::get('/single_feed_view/{news_feed}', 'NewsFeedPageController@single_feed');
+
+
 
     Route::view('/slider', 'AEE_Real.slider');
     Route::view('/blog-single', 'AEE_Real.single-blog');
@@ -101,6 +105,7 @@ Route::group(['prefix' => 'AEE_Dashboard'], function () {
     Route::resource('/registeredMembership', 'RegisteredMembershipController');
     Route::resource('/service', 'ServiceController');
     Route::resource('/images', 'ImageController');
+    Route::resource('/newsFeed', 'NewsFeedController');
     Route::get('/featuredProjects', 'FeaturedProjectsController@index');
     Route::post('/featuredProjects/{project}/remove', 'FeaturedProjectsController@remove');
     Route::post('/featuredProjects/{project}/add', 'FeaturedProjectsController@add');

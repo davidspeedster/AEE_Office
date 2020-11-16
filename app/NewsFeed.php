@@ -4,13 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Project extends Model
+class NewsFeed extends Model
 {
     //
     protected $guarded = [];
 
 
-    public function newsFeeds(){
-        return $this->hasMany(NewsFeed::class);
+    public function project(){
+        return $this->belongsTo(Project::class);
     }
 }
